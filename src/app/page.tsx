@@ -1,5 +1,9 @@
 function page() {
-  return <div>page is </div>;
+  return (
+    <>
+      <div>Hello Resend! </div>
+    </>
+  );
 }
 
 export default page;
