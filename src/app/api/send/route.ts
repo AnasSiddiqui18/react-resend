@@ -11,8 +11,8 @@ export async function POST() {
   try {
     const data = await resend.emails.send({
       from: "Acme <onboarding@resend.dev>",
-      to: ["farahkhurram43@gmail.com"],
-      bcc: ["ayangfx.com@gmail.com", "anassiddiqui0910@gmail.com"],
+      to: ["anassiddiqui0910@gmail.com"],
+      bcc: ["ayangfx.com@gmail.com"],
       subject: "Hello world",
       text: "Hi John,\nWelcome to Acme!",
       react: EmailTemplate({ firstName: "Anas Siddiqui" }),
